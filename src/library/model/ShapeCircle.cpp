@@ -17,16 +17,16 @@ public:
 
 
 ShapeCircle::Impl::Impl(double x, double y, double r)
-	: _x{ x }
-	, _y{ y }
-	, _r{ r }
+	: _x { x }
+	, _y { y }
+	, _r { r }
 {
 }
 
 
 
 ShapeCircle::ShapeCircle(double x, double y, double r)
-	: _impl{ new Impl(x, y, r) }
+	: _impl { new Impl(x, y, r) }
 {
 }
 

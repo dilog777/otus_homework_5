@@ -16,9 +16,9 @@ public:
 
 	void clear();
 
-	void addShape(ShapePtr& shape);
-	
+	void addShape(ShapePtr &shape);
+
 private:
 	class Impl;
-	Impl* _impl;
+	Impl *_impl;
 };

@@ -24,7 +24,7 @@ Model::Impl::Impl()
 
 
 Model::Model()
-	: _impl{ new Impl }
+	: _impl { new Impl }
 {
 }
 
@@ -44,7 +44,7 @@ void Model::clear()
 
 
 
-void Model::addShape(ShapePtr& shape)
+void Model::addShape(ShapePtr &shape)
 {
 	_impl->_shapes.push_back(shape);
 }

@@ -17,16 +17,16 @@ public:
 
 
 ShapeSquare::Impl::Impl(double x, double y, double size)
-	: _x{ x }
-	, _y{ y }
-	, _size{ size }
+	: _x { x }
+	, _y { y }
+	, _size { size }
 {
 }
 
 
 
 ShapeSquare::ShapeSquare(double x, double y, double size)
-	: _impl{ new Impl(x, y, size) }
+	: _impl { new Impl(x, y, size) }
 {
 }
 

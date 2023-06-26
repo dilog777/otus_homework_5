@@ -18,17 +18,17 @@ public:
 
 
 ShapeRectangle::Impl::Impl(double x, double y, double width, double height)
-	: _x{ x }
-	, _y{ y }
-	, _width{ width }
-	, _height{ height }
+	: _x { x }
+	, _y { y }
+	, _width { width }
+	, _height { height }
 {
 }
 
 
 
 ShapeRectangle::ShapeRectangle(double x, double y, double width, double height)
-	: _impl{ new Impl(x, y, width, height) }
+	: _impl { new Impl(x, y, width, height) }
 {
 }
 
