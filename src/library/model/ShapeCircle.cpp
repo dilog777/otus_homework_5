@@ -1,6 +1,6 @@
 #include "ShapeCircle.h"
 
-#include "../view/IShapeViwer.h"
+#include "../view/IShapeViewer.h"
 
 
 
