@@ -8,7 +8,7 @@ class ShapeSquare : public Shape
 {
 public:
 	ShapeSquare(double x, double y, double size);
-	~ShapeSquare();
+	~ShapeSquare() override;
 
 	void draw(IShapeViewer *viewer) const override;
 

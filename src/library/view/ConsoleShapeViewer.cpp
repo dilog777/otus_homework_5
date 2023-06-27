@@ -3,6 +3,12 @@
 #include <iostream>
 
 
+void ConsoleShapeViewer::clear()
+{
+	std::cout << "Clear view" << std::endl;
+}
+
+
 
 void ConsoleShapeViewer::drawCircle(double x, double y, double r)
 {

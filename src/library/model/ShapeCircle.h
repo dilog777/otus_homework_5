@@ -8,7 +8,7 @@ class ShapeCircle : public Shape
 {
 public:
 	ShapeCircle(double x, double y, double r);
-	~ShapeCircle();
+	~ShapeCircle() override;
 
 	void draw(IShapeViewer *viewer) const override;
 

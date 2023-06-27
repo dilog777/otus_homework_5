@@ -8,7 +8,7 @@ class ShapeRectangle : public Shape
 {
 public:
 	ShapeRectangle(double x, double y, double width, double height);
-	~ShapeRectangle();
+	~ShapeRectangle() override;
 
 	void draw(IShapeViewer *viewer) const override;
 

@@ -37,6 +37,7 @@ ShapeModel::~ShapeModel()
 void ShapeModel::clear()
 {
 	_impl->_shapes.clear();
+	notifyUpdate();
 }
 
 
