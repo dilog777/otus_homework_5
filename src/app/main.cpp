@@ -1,10 +1,14 @@
-#include "lib.h"
+#include "model/ShapeModel.h"
+#include "view/ConsoleShapeViewer.h"
+#include "controller/ShapeController.h"
 
-#include <iostream>
+
 
 int main(int, char **)
 {
-	std::cout << "build " << buildNumber() << std::endl;
-	std::cout << "Hello, World!" << std::endl;
+	ShapeModel model;
+	ConsoleShapeViewer viewer;
+	ShapeController controller(&model, &viewer);
+
 	return 0;
 }

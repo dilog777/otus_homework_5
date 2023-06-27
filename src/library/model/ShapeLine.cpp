@@ -1,6 +1,6 @@
 #include "ShapeLine.h"
 
-#include "../view/IShapeViwer.h"
+#include "../view/IShapeViewer.h"
 
 
 

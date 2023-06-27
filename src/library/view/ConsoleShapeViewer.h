@@ -1,6 +1,6 @@
 #pragma once
 
-#include "IShapeViwer.h"
+#include "IShapeViewer.h"
 
 
 

@@ -1,6 +1,6 @@
 #include "ShapeRectangle.h"
 
-#include "../view/IShapeViwer.h"
+#include "../view/IShapeViewer.h"
 
 
 
