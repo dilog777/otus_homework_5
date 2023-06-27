@@ -2,8 +2,8 @@
 
 #include <cassert>
 
-#include "..\model\IShapeModel.h"
-#include "..\view\IShapeViewer.h"
+#include "../model/IShapeModel.h"
+#include "../view/IShapeViewer.h"
 
 
 
