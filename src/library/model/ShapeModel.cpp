@@ -42,6 +42,13 @@ void ShapeModel::clear()
 
 
 
+const ShapeList ShapeModel::shapes() const
+{
+	return _impl->_shapes;
+}
+
+
+
 void ShapeModel::addShape(ShapePtr &shape)
 {
 	_impl->_shapes.push_back(shape);
@@ -50,7 +57,8 @@ void ShapeModel::addShape(ShapePtr &shape)
 
 
 
-const ShapeList ShapeModel::shapes() const
+void ShapeModel::removeShape(ShapePtr &shape)
 {
-	return _impl->_shapes;
+	_impl->_shapes.remove(shape);
+	notifyUpdate();
 }

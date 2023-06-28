@@ -18,10 +18,10 @@ int main(int, char **)
 	ShapePtr line = std::make_shared<ShapeLine>(10, 20, 30, 40);
 	ShapePtr rectangle = std::make_shared<ShapeRectangle>(20, 30, 40, 60);
 	ShapePtr square = std::make_shared<ShapeSquare>(40, 50, 15);
-	model->addShape(circle);
-	model->addShape(line);
-	model->addShape(rectangle);
-	model->addShape(square);
+	controller.addShape(circle);
+	controller.addShape(line);
+	controller.addShape(rectangle);
+	controller.addShape(square);
 
 	return 0;
 }

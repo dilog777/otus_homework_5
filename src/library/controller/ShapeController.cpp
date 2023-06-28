@@ -22,19 +22,14 @@ ShapeController::ShapeController(IShapeModelPtr &model, IShapeViewerPtr &viewer)
 
 void ShapeController::newDocument()
 {
-	_updateBlocked = true;
-
 	_model->clear();
-
-	_updateBlocked = false;
-	update();
 }
 
 
 
-void ShapeController::saveDocument(const std::string& path)
+void ShapeController::saveDocument(const std::string &filePath)
 {
-	std::ofstream stream(path);
+	std::ofstream stream(filePath);
 	if (stream.is_open())
 	{
 		// auto data = shape->toString();
@@ -45,12 +40,12 @@ void ShapeController::saveDocument(const std::string& path)
 
 
 
-void ShapeController::loadDocument(const std::string& path)
+void ShapeController::loadDocument(const std::string &filePath)
 {
 	_updateBlocked = true;
 	_model->clear();
 
-	std::ifstream stream(path);
+	std::ifstream stream(filePath);
 	if (stream.is_open())
 	{
 		// auto data << steam; // read from steam
@@ -61,6 +56,20 @@ void ShapeController::loadDocument(const std::string& path)
 
 	_updateBlocked = false;
 	update();
+}
+
+
+
+void ShapeController::addShape(ShapePtr &shape)
+{
+	_model->addShape(shape);
+}
+
+
+
+void ShapeController::removeShape(ShapePtr &shape)
+{
+	_model->removeShape(shape);
 }
 
 

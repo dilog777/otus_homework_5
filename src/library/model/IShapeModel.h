@@ -18,6 +18,7 @@ public:
 
 	virtual void clear() = 0;
 
-	virtual void addShape(ShapePtr &shape) = 0;
 	virtual const ShapeList shapes() const = 0;
+	virtual void addShape(ShapePtr &shape) = 0;
+	virtual void removeShape(ShapePtr &shape) = 0;
 };

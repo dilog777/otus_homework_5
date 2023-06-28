@@ -12,8 +12,9 @@ public:
 
 	void clear() override;
 
-	void addShape(ShapePtr &shape) override;
 	const ShapeList shapes() const override;
+	void addShape(ShapePtr &shape) override;
+	void removeShape(ShapePtr &shape) override;
 
 private:
 	class Impl;
