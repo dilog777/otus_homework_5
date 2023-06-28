@@ -1,11 +1,11 @@
-#include "model/ShapeModel.h"
-#include "view/ConsoleShapeViewer.h"
 #include "controller/ShapeController.h"
-
 #include "model/ShapeCircle.h"
 #include "model/ShapeLine.h"
+#include "model/ShapeModel.h"
 #include "model/ShapeRectangle.h"
 #include "model/ShapeSquare.h"
+#include "view/ConsoleShapeViewer.h"
+
 
 
 int main(int, char **)

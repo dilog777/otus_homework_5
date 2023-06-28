@@ -78,7 +78,7 @@ void ShapeController::update()
 {
 	if (_updateBlocked)
 		return;
-	
+
 	_viewer->clear();
 	for (const auto &shape : _model->shapes())
 		shape->draw(_viewer.get());

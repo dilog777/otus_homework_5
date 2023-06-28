@@ -81,28 +81,19 @@ SpaceBeforeCpp11BracedList: true
 SpaceBeforeRangeBasedForLoopColon: true
 SpaceInEmptyBlock: true
 
-#SortIncludes: CaseInsensitive
-#IncludeBlocks: Regroup
-#IncludeCategories:
-#  # ui headers
-#  - Regex:           '"ui_[[:alnum:].]+h"'
-#    Priority:        0
-#    CaseSensitive:   true
-#  # Qt headers
-#  - Regex:           '<Q[:alnum:]+>'
-#    Priority:        2
-#    SortPriority:    2
-#    CaseSensitive:   true
-#  # Standard headers in <>
-#  - Regex:           '<[[:alnum:]/_-]+>'
-#    Priority:        1
-#  # External headers
-#  - Regex:           '<[[:alnum:]/_-]+\.(h|hpp|hxx)>'
-#    Priority:        3
-#    CaseSensitive:   false
-#  # Local headers in ""
-#  - Regex:           '"[[:alnum:]/\._-]*"'
-#    Priority:        4
+SortIncludes: CaseInsensitive
+IncludeBlocks: Regroup
+IncludeCategories:
+  # Standard headers in <>
+  - Regex:           '<[[:alnum:]/_-]+>'
+    Priority:        1
+  # External headers
+  - Regex:           '<[[:alnum:]/_-]+\.(h|hpp|hxx)>'
+    Priority:        2
+    CaseSensitive:   false
+  # Local headers in ""
+  - Regex:           '"[[:alnum:]/\._-]*"'
+    Priority:        3
 
 StatementMacros:
   - Q_UNUSED
