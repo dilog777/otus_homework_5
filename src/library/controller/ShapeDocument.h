@@ -1,9 +1,9 @@
 #pragma once
 
-#include "IUserInterface.h"
 #include "../model/IObserver.h"
 #include "../model/IShapeModel.h"
 #include "../view/IShapeViewer.h"
+#include "IUserInterface.h"
 
 
 

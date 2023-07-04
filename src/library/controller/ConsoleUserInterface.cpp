@@ -12,7 +12,7 @@ void ConsoleUserInterface::showMessage(const std::string &message) const
 
 
 
-bool ConsoleUserInterface::confirmUser(const std::string& question) const
+bool ConsoleUserInterface::confirmUser(const std::string &question) const
 {
 	std::cout << question << std::endl;
 
@@ -35,7 +35,7 @@ bool ConsoleUserInterface::confirmUser(const std::string& question) const
 
 
 
-std::string ConsoleUserInterface::askUser(const std::string& question) const
+std::string ConsoleUserInterface::askUser(const std::string &question) const
 {
 	std::cout << question << std::endl;
 	std::cout << "Enter answer: ";

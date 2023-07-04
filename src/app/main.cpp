@@ -1,5 +1,5 @@
-#include "controller/ShapeDocument.h"
 #include "controller/ConsoleUserInterface.h"
+#include "controller/ShapeDocument.h"
 #include "model/ShapeCircle.h"
 #include "model/ShapeLine.h"
 #include "model/ShapeModel.h"

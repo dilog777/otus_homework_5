@@ -45,10 +45,10 @@ void ShapeDocument::save()
 	auto hash = _model->calculateHash();
 	if (hash == _savedHash)
 		return;
-	
+
 	if (_filePath.empty())
 		_filePath = _userInterface->askUser("Select save path");
-	
+
 	_model->save(_filePath);
 	_savedHash = hash;
 }
