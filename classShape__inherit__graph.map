@@ -1,0 +1,11 @@
+<map id="Shape" name="Shape">
+<area shape="rect" id="Node000001" title=" " alt="" coords="195,5,254,31"/>
+<area shape="rect" id="Node000002" href="$classShapeCircle.html" title=" " alt="" coords="5,79,97,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,39,82,81,80,76,181,34"/>
+<area shape="rect" id="Node000003" href="$classShapeLine.html" title=" " alt="" coords="121,79,205,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,44,175,80,171,77,203,41"/>
+<area shape="rect" id="Node000004" href="$classShapeRectangle.html" title=" " alt="" coords="229,79,345,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="246,40,278,77,274,80,242,44"/>
+<area shape="rect" id="Node000005" href="$classShapeSquare.html" title=" " alt="" coords="369,79,469,105"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="268,33,387,76,385,81,266,38"/>
+</map>
